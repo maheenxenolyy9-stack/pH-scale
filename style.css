@@ -67,4 +67,9 @@ li {
 .acidic li:nth-child(6) { background: #eb7cbd; }
 .acidic li:nth-child(7) { background: #e86bb5; }
 
+ul:nth-of-type(2),
+ul:nth-of-type(2) li {
+  background: #3cb083;
+}
+
   
