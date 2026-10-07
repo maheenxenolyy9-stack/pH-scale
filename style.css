@@ -48,10 +48,14 @@ li {
 .basic li:nth-child(7) { background: #9fe3ef; }
 
 /* ---------- Green (neutral) ----------*/
+.neutral,
+.neutral li {
+  background: #3cb083;
+}
+
 .neutral li {
   height: 56px;
-  line-height: 56px:
-  background: #3cb086;
+  line-height: 56px;
 }
 
 /* ---------- Pink (acidic) bands ---------- */
