@@ -12,7 +12,7 @@ body {
 /* ---------- Header ---------- */
 header {
   background: #f0f0f0;
-  padding: 30px 30px;
+  paddding: 30px 30px;
   margin-bottom: 25px;
 }
 
@@ -23,32 +23,44 @@ header h1 {
   color: #333333;
 }
 
-/* ---------- Common list styles ---------- */
+*/---------- Common list styles ---------- */
 ul {
   list-style: none;
   margin: 0;
-  padding: 8px 10px;
+  padding: 0;
 }
 
 li {
   height: 40px;
-  line-height: 24px;
+  line-height: 40px;
+  padding: 0 10px;
   font-size: 16px;
   color: #ffffff;
 }
 
-/* ---------- Blue (basic) ---------- */
-.neutral {
-  background: #3cb083;
-  padding-top: 14px;
-  padding-bottom: 0;
+/* ---------- Blue (basic) bands ---------- */
+.basic li:nth-child(1) { background: #0057b8; }
+.basic li:nth-child(2) { background: #1b70c1; }
+.basic li:nth-child(3) { background: #3588ca; }
+.basic li:nth-child(4) { background: #509dd4; }
+.basic li:nth-child(5) { background: #6ab6dc; }
+.basic li:nth-child(6) { background: #85cde6; }
+.basic li:nth-child(7) { background: #9fe3ef; }
+
+/* ---------- Green (neutral) ---------- */
+.neutral li {
   height: 56px;
+  line-height: 56px;
+  background: #3cb086;
 }
 
-.neutral li {
-  height: auto;
-}
-/* ---------- Pink (acidic) ---------- */
-.acidic {
-  background: linear-gradient(to bottom, #fbd3e3 0%, #f2a0c4 45%, #e86bb5 100%);
-}
+/* ---------- Pink (acidic) bands ---------- */
+.acidic li:nth-chlid(1) { background: #fbd3e3; }
+.acidic li:nth-chlid(2) { background: #f8c2db; }
+.acidic li:nth-chlid(3) { background: #f5b0d4; }
+.acidic li:nth-chlid(4) { background: #f29fcc; }
+.acidic li:nth-chlid(5) { background: #ee8ec4; }
+.acidic li:nth-chlid(6) { background: #eb7cbd; }
+.acidic li:nth-chlid(7) { background: #e86bb5; }
+  
+  
