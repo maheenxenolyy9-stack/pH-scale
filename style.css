@@ -9,10 +9,10 @@ body {
   font-family: Arial, Helvetica, sans-serif;
 }
 
-/* ---------- Header ---------- */
+/* ---------- Header --------- */
 header {
   background: #f0f0f0;
-  paddding: 30px 30px;
+  padding: 30px 30px;
   margin-bottom: 25px;
 }
 
@@ -23,7 +23,7 @@ header h1 {
   color: #333333;
 }
 
-*/---------- Common list styles ---------- */
+/* ---------- Common list styles ---------- */
 ul {
   list-style: none;
   margin: 0;
@@ -47,10 +47,10 @@ li {
 .basic li:nth-child(6) { background: #85cde6; }
 .basic li:nth-child(7) { background: #9fe3ef; }
 
-/* ---------- Green (neutral) ---------- */
+/* ---------- Green (neutral) ----------*/
 .neutral li {
   height: 56px;
-  line-height: 56px;
+  line-height: 56px:
   background: #3cb086;
 }
 
@@ -62,5 +62,5 @@ li {
 .acidic li:nth-child(5) { background: #ee8ec4; }
 .acidic li:nth-child(6) { background: #eb7cbd; }
 .acidic li:nth-child(7) { background: #e86bb5; }
-  
+
   
